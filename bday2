@@ -9,7 +9,7 @@
     body {
       margin: 0;
       padding: 0;
-      color: #000;
+      color: #000000;
       font-family: 'Creepster', cursive;
       text-align: center;
       animation: fadeIn 2s ease-in;
