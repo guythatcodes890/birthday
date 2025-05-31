@@ -1,144 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Nathan's 12th Birthday Halloween Bash!</title>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+  <meta charset="UTF-8">
+  <title>Nathan's 12th Birthday Halloween Bash!</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
-body {
-margin: 0;
-padding: 0;
-background: color:100c08
-background-size: cover;
-color: #fff;
-font-family: 'Creepster', cursive;
-text-align: center;
-animation: fadeIn 2s ease-in;
-}
+    body {
+      margin: 0;
+      padding: 0;
+      color: #000000;
+      font-family: 'Creepster', cursive;
+      text-align: center;
+      animation: fadeIn 2s ease-in;
+    }
 
-h1 {
-font-size: 4em;
-color: #ff7518;
-text-shadow: 0 0 10px #ff7518, 0 0 20px #ff7518;
-margin-top: 30px;
-animation: glow 1.5s infinite alternate;
-}
+    h1 {
+      font-size: 4em;
+      color: #ff7518;
+      text-shadow: 0 0 10px #ff7518, 0 0 20px #ff7518;
+      margin-top: 30px;
+      animation: glow 1.5s infinite alternate;
+    }
 
-@keyframes glow {
-from {
-text-shadow: 0 0 10px #ff7518, 0 0 20px #ff7518;
-}
-to {
-text-shadow: 0 0 20px #ffa500, 0 0 30px #ffa500;
-}
-}
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #ff7518, 0 0 20px #ff7518;
+      }
+      to {
+        text-shadow: 0 0 20px #ffa500, 0 0 30px #ffa500;
+      }
+    }
 
-@keyframes fadeIn {
-from { opacity: 0; }
-to { opacity: 1; }
-}
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
 
-.spooky, .section {
-font-size: 1.5em;
-margin: 20px;
-padding: 0 10px;
-text-shadow: 0 0 5px #000;
-}
+    .spooky, .section {
+      font-size: 1.5em;
+      margin: 20px;
+      padding: 0 10px;
+      text-shadow: 0 0 5px #000;
+    }
 
-.spooky-img {
-max-width: 300px;
-border: 5px solid #ff7518;
-border-radius: 10px;
-margin: 20px 0;
-box-shadow: 0 0 20px #000;
-}
+    .spooky-img {
+      max-width: 300px;
+      border: 5px solid #ff7518;
+      border-radius: 10px;
+      margin: 20px 0;
+      box-shadow: 0 0 20px #000;
+    }
 
-.rsvp-button {
-display: inline-block;
-background: #ff7518;
-color: #fff;
-padding: 15px 30px;
-margin-top: 30px;
-font-size: 1.5em;
-border: none;
-border-radius: 8px;
-text-decoration: none;
-box-shadow: 0 0 15px #ff7518;
-transition: 0.3s;
-}
+    .rsvp-button {
+      display: inline-block;
+      background: #ff7518;
+      color: #fff;
+      padding: 15px 30px;
+      margin-top: 30px;
+      font-size: 1.5em;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      box-shadow: 0 0 15px #ff7518;
+      transition: 0.3s;
+    }
 
-.rsvp-button:hover {
-background: #ffa500;
-box-shadow: 0 0 25px #ffa500;
-}
+    .rsvp-button:hover {
+      background: #ffa500;
+      box-shadow: 0 0 25px #ffa500;
+    }
 
-#countdown {
-font-size: 2em;
-margin: 30px 0;
-color: #ff7518;
-text-shadow: 0 0 10px #000;
-}
+    #countdown {
+      font-size: 2em;
+      margin: 30px 0;
+      color: #ff7518;
+      text-shadow: 0 0 10px #000;
+    }
 
-.footer {
-font-size: 0.9em;
-color: #ccc;
-margin: 50px 0 20px;
-}
-</style>
+    .footer {
+      font-size: 0.9em;
+      color: #ccc;
+      margin: 50px 0 20px;
+    }
+  </style>
 </head>
 <body>
 
-<h1>🎃 Nathan’s 12th Birthday Bash! 🎃</h1>
+  <h1>🎃 Nathan’s 12th Birthday Bash! 🎃</h1>
 
-<div id="countdown">Loading countdown...</div>
+  <div id="countdown">Loading countdown...</div>
 
-<div class="spooky">
-The moon is rising, the pumpkins are glowing, and something spooky is in the air… because <strong>Nathan is turning 12!</strong> 👻
-</div>
+  <div class="spooky">
+    The moon is rising, the pumpkins are glowing, and something spooky is in the air… because <strong>Nathan is turning 12!</strong> 👻
+  </div>
 
-<div class="section">
-🧛 A night of fright, fun, and unforgettable memories with haunted games like mummy wrap races and pumpkin bowling!
-</div>
+  <div class="section">
+    🧛 A night of fright, fun, and unforgettable memories with haunted games like mummy wrap races and pumpkin bowling!
+  </div>
 
-<div class="section">
-🕯️ Spooky snacks, creepy cupcakes, and bubbling witch’s brew punch await!
-</div>
+  <div class="section">
+    🕯️ Spooky snacks, creepy cupcakes, and bubbling witch’s brew punch await!
+  </div>
 
-<img src="https://i.imgur.com/V9Kjz2U.png" alt="Spooky Halloween" class="spooky-img">
+  <div class="section">
+    Let’s gather under the full moon to celebrate 12 years of Nathan’s awesomeness with chills, thrills, and hauntingly good times!
+  </div>
 
-<div class="section">
-Let’s gather under the full moon to celebrate 12 years of Nathan’s awesomeness with chills, thrills, and hauntingly good times!
-</div>
+  <a href="https://www.icloud.com/invites/0469nMsMRmKR0gBsH847FDf8Qsubject=RSVP%20for%20Nathan's%20Halloween%20Party" class="rsvp-button">👻 RSVP Now! 🎃</a>
 
-<a href="https://www.icloud.com/invites/0469nMsMRmKR0gBsH847FDf8Q?subject=RSVP%20for%20Nathan's%20Halloween%20Party" class="rsvp-button">👻 RSVP Now! 🎃</a>
+  <div class="footer">
+   2025 Nathan's Haunted Birthday Bash
+  </div>
 
-<div class="footer">
-2025 Nathan's Haunted Birthday Bash
-</div>
+  <script>
+    // Countdown timer to October 25, 2025, 4:30 PM
+    const countdown = document.getElementById("countdown");
+    const partyDate = new Date("October 25, 2025 16:30:00").getTime();
 
-<script>
-// Countdown timer to October 25, 2025, 4:30 PM
-const countdown = document.getElementById("countdown");
-const partyDate = new Date("October 25, 2025 16:30:00").getTime();
+    const timer = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = partyDate - now;
 
-const timer = setInterval(() => {
-const now = new Date().getTime();
-const distance = partyDate - now;
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      countdown.innerHTML = `🎃 ${days}d ${hours}h ${minutes}m ${seconds}s until the party! 🎃`;
 
-countdown.innerHTML = `🎃 ${days}d ${hours}h ${minutes}m ${seconds}s until the party! 🎃`;
-
-if (distance < 0) {
-clearInterval(timer);
-countdown.innerHTML = "🎉 It's party time! 🎉";
-}
-}, 1000);
-</script>
+      if (distance < 0) {
+        clearInterval(timer);
+        countdown.innerHTML = "🎉 It's party time! 🎉";
+      }
+    }, 1000);
+  </script>
 
 </body>
 </html>
